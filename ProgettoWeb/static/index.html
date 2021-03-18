@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Rilievi e Perizie</title>
+	<link rel="icon" href="img/logo.png" type=image/png>
+	<meta name="viewport" content="maximum-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="./../css/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+	<script type="application/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdWgu3MKgdqJyBFqh7bEAOmXpzwWRgVL0"></script>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/libreria.js"></script>
+	<script src="./js/index.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="area">
+				<input type="button" id="btnSignUp" class="btn btn-secondary" value="Registra un utente">
+				<input type="button" id="btnUserDatabase" class="btn btn-secondary" value="Visualizza lista utenti">
+			</div>
+			<h2>RILIEVI E PERIZIE</h2>
+			<nav id="icon">
+				<li><a id="btnLogout" href="#" class="nav-link nav-icons"><i class="fas fa-sign-out-alt"></i></a></li>
+			</nav>
+			<hr size="1" width="100%" color="black" noshade>
+			<input type="button" id="btnVisualizzaPercorso" class="btn btn-info" value="Visualizza percorso">
+			<input type="button" id="btnAddNote" class="btn btn-success" value="Aggiungi una nota">
+			<input type="text" id="txtAddNote" placeholder="Note dell'admin">
+			<br>
+			<i class="fas fa-car-side" id="carIcon"></i>
+			<label id="btnDistanza"></label>
+			<div id="boxMap">
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

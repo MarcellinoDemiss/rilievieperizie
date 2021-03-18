@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: url("./../img/backgroundLogin.jpg") no-repeat;
+  position: relative;
+  background-size:cover;
+}
+
+.container{
+  margin-top: 5%;
+  text-align: center;
+}
+
+a{
+  font: 20px Arial; 
+  color: white;
+}
+
+h2{
+  display: inline-block;
+}
+
+.dynamicTable { 
+  margin-top: 5%;
+  font: 20px Arial; 
+  text-align: left;
+  background-color: rgba(178, 178, 178, 0); 
+  display: inline-block;
+  margin-bottom: 5%;
+}
+        
+.dynamicTableTh { 
+  color:white;
+}
+        
+.dynamicTableTd {  
+  color: white;
+}
+
+th {
+  padding-left: 80px;
+  padding-top: 5px;
+}
+
+td {
+  padding-left: 80px;
+  padding-top: 5px;
+}

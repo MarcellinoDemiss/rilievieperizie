@@ -1,0 +1,1 @@
+mongodb+srv://MarcellinoDemis:p4ssW0rd@cluster0.j5izu.mongodb.net/test?authSource=admin&replicaSet=atlas-11xy39-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true

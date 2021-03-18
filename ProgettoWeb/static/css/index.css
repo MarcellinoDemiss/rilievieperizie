@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: url("./../img/backgroundIndex.jpg") no-repeat;
+  position: relative;
+  background-size:cover;
+}
+
+#icon{
+  justify-content: center;
+  color: black;
+  float: right;
+}
+
+a{
+  color: black;
+}
+
+h2{
+  display: inline-block;
+}
+
+#btnSignUp{
+  padding: 5px;
+  float: left;
+}
+
+#btnUserDatabase{
+  padding: 5px;
+  margin-left: 10px;
+  float: left;
+}
+
+.container{
+  margin-top: 2%;
+  text-align: center;
+}
+
+#boxMap{
+  width: 900px;
+  height: 700px;
+  margin: 10px auto;
+}    
+
+#txtAddNote{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
