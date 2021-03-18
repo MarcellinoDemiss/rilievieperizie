@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="jquery.js"></script>
+    <script src="libreria.js"></script>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <h2>App Rilievi e Perizie</h2>
+                    <form class="form">  
+                        <input type="text" autocomplete="off" id="lUsername" class="username" placeholder="Username"
+                            required>
+                        <input type="button" id="btnLogin" class="button" value="NEXT">
+                    </form>
+                    <div id="lblErrore">
+                        <a class="close"><i class="fas fa-window-close"></i>
+                            <strong>Attenzione!</strong>
+                            <br>
+                            <strong>Username non valido</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form{
+    color: #fff;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-bottom: 120px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.username{
+    border: 1px solid #eee;
+}
+
+.button{
+    border: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+}
+a{
+    color: white;
+    font-size: 18px;
+}
+
+#lblErrore{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: black;
+}
